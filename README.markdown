@@ -2,6 +2,7 @@
 ##PROJEKT ALAPADATOK
 ### HASZNÁLHATÓSÁG
 A wireframe, grafikai munkák megkezdése előtt célszerű ismerni a célközönség összetételét, leírása történhet az alábbi paraméterekkel:
+
 * Férfiak/Nők,
 * 18-25 éves korosztály
 * egyetemisták/nyugdíjasok,
@@ -30,10 +31,12 @@ Hasonló elvet követve a projekt többi alkotóelemeit is érdemes definiálni,
 * REGISZTRÁLT LÁTOGATÓ,
 * SUPERADMIN,
 * ADMIN,
+
 ##### Fogalmak
 * TERMÉK,
 * KAMPÁNY,
 * KOMMENT,
+
 ##### Műveletek
 * REGISZTRÁCIÓ,
 * RENDELÉS,
@@ -48,10 +51,10 @@ A __CATEGORYLIST__ oldalon egy kategórianévre kattintva a __FELHASZNÁLÓ__ á
 Aloldal lehet például __PRODUCTPAGE__,__CONTACT__,__ABOUT__, stb.
 
 * Aloldalak felsorolása
-** Aloldal neve,
-** Mit lát a felhasználó az adott oldalon? (pl.: __TERMÉK__, __TERMÉK__-hez tartozó __KOMMENT__-ek)
-** Milyen műveleteket végezhet a __LÁTOGATÓ__/__REGISZTRÁLT LÁTOGATÓ__ az adott aloldalon? (pl.: __RENDELÉS__)
-** Aloldal fő funkciója/tartalma,
+	* Aloldal neve,
+	* Mit lát a felhasználó az adott oldalon? (pl.: __TERMÉK__, __TERMÉK__-hez tartozó __KOMMENT__-ek)
+	* Milyen műveleteket végezhet a __LÁTOGATÓ__/__REGISZTRÁLT LÁTOGATÓ__ az adott aloldalon? (pl.: __RENDELÉS__)
+	* Aloldal fő funkciója/tartalma,
 
 #### 
 
@@ -82,21 +85,26 @@ Projekttől függően jellemzően __LÁTOGATÓ__t/__REGISZTRÁLT LÁTOGATÓ__t k
 
 ##FUTTATÁSI KÖRNYEZET
 ###Hardver/Operációs rendszer
+
 *Desktop-Laptop/Mobil-Tablet
 *Windows/Linux/OSX
 
 ###Böngészők
 ####Modern böngészőkre tervezünk
+
 * Internet Explorer 7+
 * Mozilla Firefox
 * Google Chrome
 * Opera / Opera Mobile
 * Safari
+
 ####Emellett igény esetén külön kérni kell
+
 * Működés biztosítása IE6-ban is
 * Mobil böngészőre tervezett/optimalizált design `(Részletezve talán máshol)`
 
 ##ERŐFORRÁSOK
+
 * Mekkora látogatottságra számítanak?
 	* Lesz e pontszerű (TV spot, Radio Ad, stb) kampánya az oldalnak?
 	* Lesz e hosszú távú (pl.: Banner, plakát) kampánya az oldalnak?
