@@ -57,6 +57,7 @@ Hasonló elvet követve a projekt többi alkotóelemeit is érdemes definiálni,
   	* HASONLÓTERMÉKEK LISTA
 * LÁBLÉC
 	* LÁBLÉCMENÜ
+ 	* NYELVVÁLASZTÓ
  	* KERESŐDOBOZ
   	* LINKEK: FELHASZNÁLÁSI FELTÉTELEK,RÓLUNK, stb.
 
@@ -109,6 +110,12 @@ Projekttől függően jellemzően __LÁTOGATÓ__t/__REGISZTRÁLT LÁTOGATÓ__t k
 	* CATEGORYLIST,
 	* PRODUCTLIST, 
 	* PRODUCTPAGE
+
+## l18n
+>A projekt publikus felületének nyelvét egy nyelv esetén is meg kell adni, ha több nyelvű oldalról van szó, akkor felsorolással kell megadni.
+
+>Ha igény van - akár egy vagy többnyelvű oldal esetén is - arra, hogy a megjelenő információk időzónáktól függően jelenjenek meg (pl.: egy rendezvény időpontja), akkor azt részletes leírásban kell közölni.
+
 
 ##FUTTATÁSI KÖRNYEZET
 ###Hardver/Operációs rendszer
