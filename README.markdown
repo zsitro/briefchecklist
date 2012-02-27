@@ -1,6 +1,11 @@
 #BRIEF
-##PLANNING
-
+##PROJEKT ALAPADATOK
+### HASZNÁLHATÓSÁG
+A wireframe, grafikai munkák megkezdése előtt célszerű ismerni a célközönség összetételét, leírása történhet az alábbi paraméterekkel:
+* Férfiak/Nők,
+* 18-25 éves korosztály
+* egyetemisták/nyugdíjasok,
+* bárki/vegyes/meghatározhatatlan `(marketing fail?)`
 
 ##WIREFRAME
 ###MEGNEVEZÉSEK:
@@ -20,33 +25,38 @@ A brief megírásakor a projektben szereplő (al)oldalak kapjanak egy-egy nagybe
 Hasonló elvet követve a projekt többi alkotóelemeit is érdemes definiálni, amennyiben említésre kerülnek a dokumentációban:
 
 ####Példák
+##### Felhasználók
 * LÁTOGATÓ,
 * REGISZTRÁLT LÁTOGATÓ,
 * SUPERADMIN,
 * ADMIN,
+##### Fogalmak
 * TERMÉK,
 * KAMPÁNY,
-* RENDELÉS
+* KOMMENT,
+##### Műveletek
+* REGISZTRÁCIÓ,
+* RENDELÉS,
+* KOMMENTELÉS
 
 A leírásban pedig ezekkel a megnevezéssel legyenek hivatkozva egymásra.
 
 ####Példa
 A __CATEGORYLIST__ oldalon egy kategórianévre kattintva a __FELHASZNÁLÓ__ átkerül a __PRODUCTLIST__ oldalra, ahol a kategóriában megtalálható publikált __TERMÉK__ek listáját találja. 
 
-###
+### ALOLDALAK
+Aloldal lehet például __PRODUCTPAGE__,__CONTACT__,__ABOUT__, stb.
 
-### Aloldalak
 * Aloldalak felsorolása
-** Aloldal neve
-** Aloldal fő funkciója/tartalma
+** Aloldal neve,
+** Mit lát a felhasználó az adott oldalon? (pl.: __TERMÉK__, __TERMÉK__-hez tartozó __KOMMENT__-ek)
+** Milyen műveleteket végezhet a __LÁTOGATÓ__/__REGISZTRÁLT LÁTOGATÓ__ az adott aloldalon? (pl.: __RENDELÉS__)
+** Aloldal fő funkciója/tartalma,
 
-### Minden (al)oldalra
-* Mit lát a felhasználó az adott oldalon?
-	*
-*
+#### 
 
 ### JOGOSULTSÁGOK
-Ha a projekt típusa megköveteli, hogy a szoftver különböző módon kezelje a felhasználókat (lsd.: LÁTOGATÓ, ADMIN, stb.), akkor definiálni kell azok jogosultságait. 
+Ha a projekt típusa megköveteli, hogy a szoftver különböző módon kezelje a felhasználókat (lsd.: __LÁTOGATÓ__, __ADMIN__, stb.), akkor definiálni kell azok jogosultságait. 
 
 Ezek lehetnek például:
 
@@ -60,18 +70,31 @@ Ezek lehetnek például:
 
 Projekttől függően jellemzően __LÁTOGATÓ__t/__REGISZTRÁLT LÁTOGATÓ__t különböztetünk meg. Így lehet hozzájuk rendelni például:
 
-* __LÁTOGATÓ__ hozzáférhet: LANDINGPAGE, MAINPAGE, CATEGORYLIST, PRODUCTLIST
-* __REGISZTRÁLT LÁTOGATÓ__ hozzáférhet: LANDINGPAGE, MAINPAGE, CATEGORYLIST, PRODUCTLIST, PRODUCTPAGE
+* __LÁTOGATÓ__ hozzáférhet: 
+	* LANDINGPAGE,
+ 	* MAINPAGE
+* __REGISZTRÁLT LÁTOGATÓ__ hozzáférhet: 
+	* LANDINGPAGE,
+ 	* MAINPAGE,
+  	* CATEGORYLIST,
+   	* PRODUCTLIST, 
+    	* PRODUCTPAGE
 
-* 
 ##FUTTATÁSI KÖRNYEZET
 ###Hardver/Operációs rendszer
 *Desktop-Laptop/Mobil-Tablet
 *Windows/Linux/OSX
 
 ###Böngészők
-* Modern böngészők
-* Működés biztosítása IE6-ban is?
+####Modern böngészőkre tervezünk
+* Internet Explorer 7+
+* Mozilla Firefox
+* Google Chrome
+* Opera / Opera Mobile
+* Safari
+####Emellett igény esetén külön kérni kell
+* Működés biztosítása IE6-ban is
+* Mobil böngészőre tervezett/optimalizált design `(Részletezve talán máshol)`
 
 ##ERŐFORRÁSOK
 * Mekkora látogatottságra számítanak?
