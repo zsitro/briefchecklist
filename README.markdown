@@ -42,6 +42,24 @@ Hasonló elvet követve a projekt többi alkotóelemeit is érdemes definiálni,
 * RENDELÉS,
 * KOMMENTELÉS
 
+##### Oldal alkotóelemei
+* FEJLÉC
+	* FŐMENÜ
+ 	* ALMENÜ
+  	* KERESŐDOBOZ
+* (BAL)OLDALSÁV
+	* BEJELENTKEZŐ DOBOZ
+ 	* KATEGÓRIALISTA
+	* BANNER1
+* TARTALOM
+	* TERMÉKLEÍRÁS
+ 	* TERMÉKKÉP
+  	* HASONLÓTERMÉKEK LISTA
+* LÁBLÉC
+	* LÁBLÉCMENÜ
+ 	* KERESŐDOBOZ
+  	* LINKEK: FELHASZNÁLÁSI FELTÉTELEK,RÓLUNK, stb.
+
 A leírásban pedig ezekkel a megnevezéssel legyenek hivatkozva egymásra.
 
 ####Példa
@@ -56,7 +74,16 @@ Aloldal lehet például __PRODUCTPAGE__,__CONTACT__,__ABOUT__, stb.
 	* Milyen műveleteket végezhet a __LÁTOGATÓ__/__REGISZTRÁLT LÁTOGATÓ__ az adott aloldalon? (pl.: __RENDELÉS__)
 	* Aloldal fő funkciója/tartalma,
 
-#### 
+### BEVITELI MEZŐK
+Ahol a projektben adatrögzítésre (pl.: REGISZTRÁCIÓ, KAPCSOLATOLDAL, KÉRDŐÍVOLDAL) van lehetőség, definiálni kell a LÁTOGATÓ-tól bekérendő adatok listáját és azokhoz tartozó attribútumokat.
+
+#### Példa KAPCSOLATOLDAL-ra
+
+* NÉV MEZŐ -> egysoros szöveg, kötelező
+* NEME -> rádiógomb, kötelező, opciók: Férfi/Nő
+* KÉRDÉS TÉMÁJA -> többszörös választás, nem kötelező, opciók: Technikai/Személyes/Árajánlat/Érdeklődés/Megrendelés/Hibabejelentés
+* KÉRDÉS -> többsoros szöveg, maximum 1000 karakter, kötelező
+* PRIORITÁS -> legördülő lista, kötelező, opciók: Sürgős/Válasz 2 napon belül/Válasz egy héten belül
 
 ### JOGOSULTSÁGOK
 Ha a projekt típusa megköveteli, hogy a szoftver különböző módon kezelje a felhasználókat (lsd.: __LÁTOGATÓ__, __ADMIN__, stb.), akkor definiálni kell azok jogosultságait. 
@@ -78,16 +105,16 @@ Projekttől függően jellemzően __LÁTOGATÓ__t/__REGISZTRÁLT LÁTOGATÓ__t k
  	* MAINPAGE
 * __REGISZTRÁLT LÁTOGATÓ__ hozzáférhet: 
 	* LANDINGPAGE,
- 	* MAINPAGE,
-  	* CATEGORYLIST,
-   	* PRODUCTLIST, 
-    	* PRODUCTPAGE
+	* MAINPAGE,
+	* CATEGORYLIST,
+	* PRODUCTLIST, 
+	* PRODUCTPAGE
 
 ##FUTTATÁSI KÖRNYEZET
 ###Hardver/Operációs rendszer
 
-*Desktop-Laptop/Mobil-Tablet
-*Windows/Linux/OSX
+* Desktop-Laptop/Mobil-Tablet
+* Windows/Linux/OSX
 
 ###Böngészők
 ####Modern böngészőkre tervezünk
