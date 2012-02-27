@@ -3,55 +3,77 @@
 
 
 ##WIREFRAME
-###MEGNEVEZ…SEK:
-A brief megÌr·sakor a projektben szereplı (al)oldalak kapjanak egy-egy nagybet˚s - a funkciÛj·ra, vagy tartalm·ra jellemzı - nevet.
-####PÈld·k
-*LANDINGPAGE,
-*MAINPAGE,
-*CONTACT,
-*ABOUT,
-*LOGINPAGE,
-*CATEGORYLIST,
-*PRODUCTLIST,
-*PRODUCTPAGE,
-*NEWSLETTER
+###MEGNEVEZ√âSEK:
+A brief meg√≠r√°sakor a projektben szerepl≈ë (al)oldalak kapjanak egy-egy nagybet≈±s - a funkci√≥j√°ra, vagy tartalm√°ra jellemz≈ë - nevet.
+####P√©ld√°k
 
-HasonlÛ elvet kˆvetve a projekt tˆbbi alkotÛelemeit is defini·lni kell, amennyiben emlÌtÈsre ker¸lnek a dokument·ciÛban:
+* LANDINGPAGE,
+* MAINPAGE,
+* CONTACT,
+* ABOUT,
+* LOGINPAGE,
+* CATEGORYLIST,
+* PRODUCTLIST,
+* PRODUCTPAGE,
+* NEWSLETTER
 
-####PÈld·k
-*L¡TOGAT”,
-*REGISZTR¡LT L¡TOGAT”,
-*SUPERADMIN,
-*ADMIN
+Hasonl√≥ elvet k√∂vetve a projekt t√∂bbi alkot√≥elemeit is √©rdemes defini√°lni, amennyiben eml√≠t√©sre ker√ºlnek a dokument√°ci√≥ban:
 
-A leÌr·sban pedig ezekkel a megnevezÈssel legyenek hivatkozva egym·sra.
+####P√©ld√°k
+* L√ÅTOGAT√ì,
+* REGISZTR√ÅLT L√ÅTOGAT√ì,
+* SUPERADMIN,
+* ADMIN,
+* TERM√âK,
+* KAMP√ÅNY,
+* RENDEL√âS
 
-####PÈlda
-A CATEGORYLIST oldalon egy kategÛrianÈvre kattintva a FELHASZN¡L” ·tker¸l a PRODUCTLIST oldalra, ahol a kategÛri·ban megtal·lhatÛ publik·lt TERM…Kek list·j·t tal·lja. 
+A le√≠r√°sban pedig ezekkel a megnevez√©ssel legyenek hivatkozva egym√°sra.
+
+####P√©lda
+A __CATEGORYLIST__ oldalon egy kateg√≥rian√©vre kattintva a __FELHASZN√ÅL√ì__ √°tker√ºl a __PRODUCTLIST__ oldalra, ahol a kateg√≥ri√°ban megtal√°lhat√≥ publik√°lt __TERM√âK__ek list√°j√°t tal√°lja. 
 
 ###
 
 ### Aloldalak
-*Aloldalak felsorol·sa
-**Aloldal neve
-**Aloldal fı funkciÛja/tartalma
+* Aloldalak felsorol√°sa
+** Aloldal neve
+** Aloldal f≈ë funkci√≥ja/tartalma
 
 ### Minden (al)oldalra
-* Mit l·t a felhaszn·lÛ az adott oldalon?
+* Mit l√°t a felhaszn√°l√≥ az adott oldalon?
 	*
 *
 
+### JOGOSULTS√ÅGOK
+Ha a projekt t√≠pusa megk√∂veteli, hogy a szoftver k√ºl√∂nb√∂z≈ë m√≥don kezelje a felhaszn√°l√≥kat (lsd.: L√ÅTOGAT√ì, ADMIN, stb.), akkor defini√°lni kell azok jogosults√°gait. 
 
-##FUTTAT¡SI K÷RNYEZET
-###Hardver/Oper·ciÛs rendszer
+Ezek lehetnek p√©ld√°ul:
+
+#### Admin fel√ºleten:
+
+* Olvas√°s,
+* M√≥dos√≠t√°s,
+* T√∂rl√©s,
+
+#### Publikus fel√ºleten:
+
+Projektt≈ël f√ºgg≈ëen jellemz≈ëen __L√ÅTOGAT√ì__t/__REGISZTR√ÅLT L√ÅTOGAT√ì__t k√ºl√∂nb√∂ztet√ºnk meg. √çgy lehet hozz√°juk rendelni p√©ld√°ul:
+
+* __L√ÅTOGAT√ì__ hozz√°f√©rhet: LANDINGPAGE, MAINPAGE, CATEGORYLIST, PRODUCTLIST
+* __REGISZTR√ÅLT L√ÅTOGAT√ì__ hozz√°f√©rhet: LANDINGPAGE, MAINPAGE, CATEGORYLIST, PRODUCTLIST, PRODUCTPAGE
+
+* 
+##FUTTAT√ÅSI K√ñRNYEZET
+###Hardver/Oper√°ci√≥s rendszer
 *Desktop-Laptop/Mobil-Tablet
 *Windows/Linux/OSX
 
-###BˆngÈszık
-*Modern bˆngÈszık
-*M˚kˆdÈs biztosÌt·sa IE6-ban is?
+###B√∂ng√©sz≈ëk
+* Modern b√∂ng√©sz≈ëk
+* M≈±k√∂d√©s biztos√≠t√°sa IE6-ban is?
 
-##ER’FORR¡SOK
-* Mekkora l·togatotts·gra sz·mÌtanak?
-	*Lesz e pontszer˚ (TV spot, Radio Ad, stb) kamp·nya az oldalnak?
-	*Lesz e hossz˙ t·v˙ (pl.: Banner, plak·t) kamp·nya az oldalnak?
+##ER≈êFORR√ÅSOK
+* Mekkora l√°togatotts√°gra sz√°m√≠tanak?
+	* Lesz e pontszer≈± (TV spot, Radio Ad, stb) kamp√°nya az oldalnak?
+	* Lesz e hossz√∫ t√°v√∫ (pl.: Banner, plak√°t) kamp√°nya az oldalnak?
