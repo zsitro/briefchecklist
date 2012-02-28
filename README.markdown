@@ -88,6 +88,7 @@ Ahol a projektben adatrögzítésre (pl.: REGISZTRÁCIÓ, KAPCSOLATOLDAL, KÉRD�
 * Jelölőnégyzet
 * Legördülő lista
 * Többértékes választó lista
+![Beviteli mezők típusai](assets/en-sample-form-elements.png "Beviteli mezők típusai")
 
 #### Beviteli mezőkhöz tartozó attribútumok
 * Felirat
@@ -98,11 +99,14 @@ Ahol a projektben adatrögzítésre (pl.: REGISZTRÁCIÓ, KAPCSOLATOLDAL, KÉRD�
    	* Alfanumerikus
    	* Egyszerűsített HTML (pl.: `<strong>`,`<i>`,`<a>`,`<h1>`,stb.) 
 	* Validálás nélküli mező (csak ADMIN felületen elérhető)
-     	* E-mail cím
-      	* Egyedi
+	* E-mail cím
+	* Egyedi
 * Minimum-maximum hossz
 * Minimum-maximum érték (szám esetén)
 * Opcióválasztó mező esetén opciók listája
+* Beírás után át kell e alakítani az adatot? (Pl.: 10000000 esetén -> 10.000.000)
+* Ha a mező kitöltése kötelező -> kihagyás/rossz kitöltés esetén hibaüzenet szövege
+* Szükség lesz e például admin felületen a bevitt mezőre szűrni/keresni
 
 
 >#### Példa KAPCSOLATOLDAL-ra
@@ -139,9 +143,9 @@ Ha a projekt típusa megköveteli, hogy a szoftver különböző módon kezelje 
 >	* PRODUCTPAGE
 
 ## l18n
->A projekt publikus felületének nyelvét egy nyelv esetén is meg kell adni, ha több nyelvű oldalról van szó, akkor felsorolással kell megadni.
+A projekt publikus felületének nyelvét egy nyelv esetén is meg kell adni, ha több nyelvű oldalról van szó, akkor felsorolással kell megadni.
 
->Ha igény van - akár egy vagy többnyelvű oldal esetén is - arra, hogy a megjelenő információk időzónáktól függően jelenjenek meg (pl.: egy rendezvény időpontja), akkor azt részletes leírásban kell közölni.
+Ha igény van - akár egy vagy többnyelvű oldal esetén is - arra, hogy a megjelenő információk időzónáktól függően jelenjenek meg (pl.: egy rendezvény időpontja), akkor azt részletes leírásban kell közölni.
 
 
 ##FUTTATÁSI KÖRNYEZET
