@@ -109,6 +109,7 @@ Ahol a projektben adatrögzítésre (pl.: REGISZTRÁCIÓ, KAPCSOLATOLDAL, KÉRD�
 * Beírás után át kell e alakítani az adatot? (Pl.: 10000000 esetén -> 10.000.000)
 * Ha a mező kitöltése kötelező -> kihagyás/rossz kitöltés esetén hibaüzenet szövege
 * Szükség lesz e például admin felületen a bevitt mezőre szűrni/keresni
+* Kérnek e a mezőhöz automatikus kiegészítés funkciót (lsd.: Google) - Pl.: Városok listája
 
 #### Űrlap (FORM) adatai
 * Hibás adatok esetén az üzenet megjelenésének helye:
@@ -116,6 +117,12 @@ Ahol a projektben adatrögzítésre (pl.: REGISZTRÁCIÓ, KAPCSOLATOLDAL, KÉRD�
  	* Az egyes mezők mellett egyenként
   	* Felugró ablakban mind
 
+##### Egyéb javaslatok űrlap tervezéséhez:
+* Űrlap címének feltöntetése
+* Kapcsolati adatok/Kapcsolat oldal link megjelenítése, ahol segítséget lehet kérni a kitöltéssel kapcsolatban
+* A hibásan kitöltött mezők vizuális kiemelése (Pl.: más színnel)
+* A "Hibás kitöltés!" üzenet helyett informatív szövegek megfogalmazása, melyek utalnak az elutasítás okára
+* A 10-20 elemnél több opciót tartalmazó legördülő listát érdemes lehet automatikus kiegészítéses egysoros beviteli mezőre cserélni
 
 >#### Példa KAPCSOLATOLDAL-ra
 >
@@ -150,10 +157,28 @@ Ha a projekt típusa megköveteli, hogy a szoftver különböző módon kezelje 
 >	* PRODUCTLIST, 
 >	* PRODUCTPAGE
 
-## l18n
+## INTERNACIONALIZÁLÁS & HONOSÍTÁS
 A projekt publikus felületének nyelvét egy nyelv esetén is meg kell adni, ha több nyelvű oldalról van szó, akkor felsorolással kell megadni.
 
 Ha igény van - akár egy vagy többnyelvű oldal esetén is - arra, hogy a megjelenő információk időzónáktól függően jelenjenek meg (pl.: egy rendezvény időpontja), akkor azt részletes leírásban kell közölni.
+
+### Érintett tartalmak a témakörben:
+
+* dátum-/időformátumok,
+* pénznem,
+* nyelv (ábécék, számok és balról jobbra, illetve jobbról balra író nyelvek; Unicode),
+* a vallási vagy más érzékenységeket sértő kifejezések figyelembe vétele,
+* nevek és címek,
+* telefonszámok, postai címek és nemzetközi irányítószámok,
+* mértékegységek.
+
+## TARTALOM / COPYWRITING
+
+A projekt publikus tartalmát képző szöveg ellenőrzését kérik e?
+
+	* Helyesírás,
+ 	* Törtdelés,
+  	* Copywriting módosítások,
 
 
 ##FUTTATÁSI KÖRNYEZET
