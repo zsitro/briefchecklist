@@ -88,7 +88,8 @@ Ahol a projektben adatrögzítésre (pl.: REGISZTRÁCIÓ, KAPCSOLATOLDAL, KÉRD�
 * Jelölőnégyzet
 * Legördülő lista
 * Többértékes választó lista
-![Beviteli mezők típusai](https://github.com/zsitro/briefchecklist/blob/master/assets/en-sample-form-elements.png?raw=true "Beviteli mezők típusai")
+
+![Beviteli mezők típusai](https://github.com/zsitro/briefchecklist/blob/master/assets/hu-sample-form-elements.png?raw=true "Beviteli mezők típusai")
 
 #### Beviteli mezőkhöz tartozó attribútumok
 * Felirat
