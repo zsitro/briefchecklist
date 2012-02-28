@@ -75,7 +75,7 @@ Aloldal lehet például __PRODUCTPAGE__,__CONTACT__,__ABOUT__, stb.
 	* Milyen műveleteket végezhet a __LÁTOGATÓ__/__REGISZTRÁLT LÁTOGATÓ__ az adott aloldalon? (pl.: __RENDELÉS__)
 	* Aloldal fő funkciója/tartalma,
 
-### BEVITELI MEZŐK
+### BEVITELI MEZŐK/ŰRLAPOK
 Ahol a projektben adatrögzítésre (pl.: REGISZTRÁCIÓ, KAPCSOLATOLDAL, KÉRDŐÍVOLDAL) van lehetőség, definiálni kell a LÁTOGATÓ-tól bekérendő adatok (BEVITELI MEZŐk) listáját és azokhoz tartozó attribútumokat.
 
 #### Beviteli mezők típusai
@@ -109,6 +109,12 @@ Ahol a projektben adatrögzítésre (pl.: REGISZTRÁCIÓ, KAPCSOLATOLDAL, KÉRD�
 * Beírás után át kell e alakítani az adatot? (Pl.: 10000000 esetén -> 10.000.000)
 * Ha a mező kitöltése kötelező -> kihagyás/rossz kitöltés esetén hibaüzenet szövege
 * Szükség lesz e például admin felületen a bevitt mezőre szűrni/keresni
+
+#### Űrlap (FORM) adatai
+* Hibás adatok esetén az üzenet megjelenésének helye:
+	* Az űrlap tetején/alján mind
+ 	* Az egyes mezők mellett egyenként
+  	* Felugró ablakban mind
 
 
 >#### Példa KAPCSOLATOLDAL-ra
@@ -170,7 +176,27 @@ Ha igény van - akár egy vagy többnyelvű oldal esetén is - arra, hogy a megj
 * Működés biztosítása IE6-ban is
 * Mobil böngészőre tervezett/optimalizált design `(Részletezve talán máshol)`
 
-##ERŐFORRÁSOK
+### Preferált/kért technológiák használata
+
+####Platform or watever
+* HTML
+* Flash
+* Java
+* etc..
+
+#### PHP Keretrendszerek
+
+* Drupal
+* Wordpress
+* Zend/Yii/Symfony/etc
+
+#### HTML
+* HTML5
+* XHTML Transitional
+* XHTML Strict
+
+
+###Erőforrások
 
 * Mekkora látogatottságra számítanak?
 	* Lesz e pontszerű (TV spot, Radio Ad, stb) kampánya az oldalnak?
