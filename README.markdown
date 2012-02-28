@@ -76,7 +76,34 @@ Aloldal lehet például __PRODUCTPAGE__,__CONTACT__,__ABOUT__, stb.
 	* Aloldal fő funkciója/tartalma,
 
 ### BEVITELI MEZŐK
-Ahol a projektben adatrögzítésre (pl.: REGISZTRÁCIÓ, KAPCSOLATOLDAL, KÉRDŐÍVOLDAL) van lehetőség, definiálni kell a LÁTOGATÓ-tól bekérendő adatok listáját és azokhoz tartozó attribútumokat.
+Ahol a projektben adatrögzítésre (pl.: REGISZTRÁCIÓ, KAPCSOLATOLDAL, KÉRDŐÍVOLDAL) van lehetőség, definiálni kell a LÁTOGATÓ-tól bekérendő adatok (BEVITELI MEZŐk) listáját és azokhoz tartozó attribútumokat.
+
+#### Beviteli mezők típusai
+
+* Egysoros szöveg
+* Többsoros szöveg
+* Fájl
+* Jelszó
+* Rádió gomb
+* Jelölőnégyzet
+* Legördülő lista
+* Többértékes választó lista
+
+#### Beviteli mezőkhöz tartozó attribútumok
+* Felirat
+* Kötelező/Nem kötelező kitölteni
+* Formátum
+	* Szöveg 	
+  	* Számok
+   	* Alfanumerikus
+   	* Egyszerűsített HTML (pl.: `<strong>`,`<i>`,`<a>`,`<h1>`,stb.)
+    	* Validálás nélküli mező (csak ADMIN felületen elérhető)
+     	* E-mail cím
+      	* Egyedi
+* Minimum-maximum hossz
+* Minimum-maximum érték (szám esetén)
+* Opcióválasztó mező esetén opciók listája
+
 
 #### Példa KAPCSOLATOLDAL-ra
 
