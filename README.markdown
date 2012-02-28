@@ -158,7 +158,7 @@ Ha a projekt típusa megköveteli, hogy a szoftver különböző módon kezelje 
 >	* PRODUCTPAGE
 
 ## INTERNACIONALIZÁLÁS & HONOSÍTÁS
-A projekt publikus felületének nyelvét egy nyelv esetén is meg kell adni, ha több nyelvű oldalról van szó, akkor felsorolással kell megadni.
+A projekt publikus felületének nyelvét egy nyelv esetén is meg kell adni. Több nyelv esetén felsorolás..
 
 Ha igény van - akár egy vagy többnyelvű oldal esetén is - arra, hogy a megjelenő információk időzónáktól függően jelenjenek meg (pl.: egy rendezvény időpontja), akkor azt részletes leírásban kell közölni.
 
@@ -176,9 +176,9 @@ Ha igény van - akár egy vagy többnyelvű oldal esetén is - arra, hogy a megj
 
 A projekt publikus tartalmát képző szöveg ellenőrzését kérik e?
 
-	* Helyesírás,
- 	* Törtdelés,
-  	* Copywriting módosítások,
+* Helyesírás,
+* Törtdelés,
+* Copywriting módosítások,
 
 
 ##FUTTATÁSI KÖRNYEZET
