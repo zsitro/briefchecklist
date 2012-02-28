@@ -63,8 +63,8 @@ Hasonló elvet követve a projekt többi alkotóelemeit is érdemes definiálni,
 
 A leírásban pedig ezekkel a megnevezéssel legyenek hivatkozva egymásra.
 
-####Példa
-A __CATEGORYLIST__ oldalon egy kategórianévre kattintva a __FELHASZNÁLÓ__ átkerül a __PRODUCTLIST__ oldalra, ahol a kategóriában megtalálható publikált __TERMÉK__ek listáját találja. 
+>####Példa
+>A __CATEGORYLIST__ oldalon egy kategórianévre kattintva a __FELHASZNÁLÓ__ átkerül a __PRODUCTLIST__ oldalra, ahol a kategóriában megtalálható publikált __TERMÉK__ek listáját találja. 
 
 ### ALOLDALAK
 Aloldal lehet például __PRODUCTPAGE__,__CONTACT__,__ABOUT__, stb.
@@ -96,8 +96,8 @@ Ahol a projektben adatrögzítésre (pl.: REGISZTRÁCIÓ, KAPCSOLATOLDAL, KÉRD�
 	* Szöveg 	
   	* Számok
    	* Alfanumerikus
-   	* Egyszerűsített HTML (pl.: `<strong>`,`<i>`,`<a>`,`<h1>`,stb.)
-    	* Validálás nélküli mező (csak ADMIN felületen elérhető)
+   	* Egyszerűsített HTML (pl.: `<strong>`,`<i>`,`<a>`,`<h1>`,stb.) 
+	* Validálás nélküli mező (csak ADMIN felületen elérhető)
      	* E-mail cím
       	* Egyedi
 * Minimum-maximum hossz
@@ -105,38 +105,38 @@ Ahol a projektben adatrögzítésre (pl.: REGISZTRÁCIÓ, KAPCSOLATOLDAL, KÉRD�
 * Opcióválasztó mező esetén opciók listája
 
 
-#### Példa KAPCSOLATOLDAL-ra
-
-* NÉV MEZŐ -> egysoros szöveg, kötelező
-* NEME -> rádiógomb, kötelező, opciók: Férfi/Nő
-* KÉRDÉS TÉMÁJA -> többszörös választás, nem kötelező, opciók: Technikai/Személyes/Árajánlat/Érdeklődés/Megrendelés/Hibabejelentés
-* KÉRDÉS -> többsoros szöveg, maximum 1000 karakter, kötelező
-* PRIORITÁS -> legördülő lista, kötelező, opciók: Sürgős/Válasz 2 napon belül/Válasz egy héten belül
+>#### Példa KAPCSOLATOLDAL-ra
+>
+>* NÉV MEZŐ -> egysoros szöveg, kötelező
+>* NEME -> rádiógomb, kötelező, opciók: Férfi/Nő
+>* KÉRDÉS TÉMÁJA -> többértékes választó lista, nem kötelező, opciók: Technikai/Személyes/Árajánlat/Érdeklődés/Megrendelés/Hibabejelentés
+>* KÉRDÉS -> többsoros szöveg, maximum 1000 karakter, kötelező
+>* PRIORITÁS -> legördülő lista, kötelező, opciók: Sürgős/Válasz 2 napon belül/Válasz egy héten belül
 
 ### JOGOSULTSÁGOK
 Ha a projekt típusa megköveteli, hogy a szoftver különböző módon kezelje a felhasználókat (lsd.: __LÁTOGATÓ__, __ADMIN__, stb.), akkor definiálni kell azok jogosultságait. 
 
-Ezek lehetnek például:
-
-#### Admin felületen:
-
-* Olvasás,
-* Módosítás,
-* Törlés,
-
-#### Publikus felületen:
-
-Projekttől függően jellemzően __LÁTOGATÓ__t/__REGISZTRÁLT LÁTOGATÓ__t különböztetünk meg. Így lehet hozzájuk rendelni például:
-
-* __LÁTOGATÓ__ hozzáférhet: 
-	* LANDINGPAGE,
- 	* MAINPAGE
-* __REGISZTRÁLT LÁTOGATÓ__ hozzáférhet: 
-	* LANDINGPAGE,
-	* MAINPAGE,
-	* CATEGORYLIST,
-	* PRODUCTLIST, 
-	* PRODUCTPAGE
+>Ezek lehetnek például:
+>
+>#### Admin felületen:
+>
+>* Olvasás,
+>* Módosítás,
+>* Törlés,
+>
+>#### Publikus felületen:
+>
+>Projekttől függően jellemzően __LÁTOGATÓ__t/__REGISZTRÁLT LÁTOGATÓ__t különböztetünk meg. Így lehet hozzájuk rendelni például:
+>
+>* __LÁTOGATÓ__ hozzáférhet: 
+>	* LANDINGPAGE,
+> 	* MAINPAGE
+>* __REGISZTRÁLT LÁTOGATÓ__ hozzáférhet: 
+>	* LANDINGPAGE,
+>	* MAINPAGE,
+>	* CATEGORYLIST,
+>	* PRODUCTLIST, 
+>	* PRODUCTPAGE
 
 ## l18n
 >A projekt publikus felületének nyelvét egy nyelv esetén is meg kell adni, ha több nyelvű oldalról van szó, akkor felsorolással kell megadni.
