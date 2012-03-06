@@ -75,6 +75,14 @@ Aloldal lehet például __PRODUCTPAGE__,__CONTACT__,__ABOUT__, stb.
 	* Milyen műveleteket végezhet a __LÁTOGATÓ__/__REGISZTRÁLT LÁTOGATÓ__ az adott aloldalon? (pl.: __RENDELÉS__)
 	* Aloldal fő funkciója/tartalma,
 
+### ELRENDEZÉS
+
+Kért, preferált  opciók:
+
+* Fix szélességű ÉS/VAGY magasságú (pl.: 960px * 500px)
+* Böngésző ablaklának méretéhez igazodó elrendezés (Responsive design)
+* Külön layout mobilra
+
 ### BEVITELI MEZŐK/ŰRLAPOK
 Ahol a projektben adatrögzítésre (pl.: REGISZTRÁCIÓ, KAPCSOLATOLDAL, KÉRDŐÍVOLDAL) van lehetőség, definiálni kell a LÁTOGATÓ-tól bekérendő adatok (BEVITELI MEZŐk) listáját és azokhoz tartozó attribútumokat.
 
