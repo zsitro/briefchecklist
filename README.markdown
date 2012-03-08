@@ -188,6 +188,10 @@ A projekt publikus tartalmát képző szöveg ellenőrzését kérik e?
 * Törtdelés,
 * Copywriting módosítások,
 
+### Javaslatok szöveges tartalom összeállításához:
+
+* A NAGYBETŰS SZÖVEG-ként (Uppercase) megjelenő tartalmat nem javasolt csupa nagybetűs szövegként küldeni. Átalakítás megoldható megjelenítéskor.
+
 
 ##FUTTATÁSI KÖRNYEZET
 ###Hardver/Operációs rendszer
