@@ -192,6 +192,16 @@ A projekt publikus tartalmát képző szöveg ellenőrzését kérik e?
 
 * A NAGYBETŰS SZÖVEG-ként (Uppercase) megjelenő tartalmat nem javasolt csupa nagybetűs szövegként küldeni. Átalakítás megoldható megjelenítéskor.
 
+### Weboldal esetén az alábbi adatok biztosítása:
+
+Megadható minden aloldalra táblázatos formában is.
+
+* (Al)oldal címe - böngésző címsorában jelenik meg, valamint pl.: Google találatok linkjében
+* META TAG-ek:
+	* description
+	* author
+ 	* keywords
+	* social share default picture (magyarázat kell?)
 
 ##FUTTATÁSI KÖRNYEZET
 ###Hardver/Operációs rendszer
