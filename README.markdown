@@ -180,12 +180,21 @@ Ha igény van - akár egy vagy többnyelvű oldal esetén is - arra, hogy a megj
 * telefonszámok, postai címek és nemzetközi irányítószámok,
 * mértékegységek.
 
+## DESIGN
+
+### Third party content
+Harmadik féltől származó grafikai elemek felhasználása előtt tájékozódni kell az adott tartalom szerzőjének feltételeiről. Pl.:
+
+* Faceboook
+	* http://www.facebook.com/brandpermissions/index.php
+ 	* http://www.facebook.com/brandpermissions/logos.php
+
 ## TARTALOM / COPYWRITING
 
 A projekt publikus tartalmát képző szöveg ellenőrzését kérik e?
 
 * Helyesírás,
-* Törtdelés,
+* Tördelés,
 * Copywriting módosítások,
 
 ### Javaslatok szöveges tartalom összeállításához:
