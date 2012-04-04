@@ -182,6 +182,12 @@ Ha igény van - akár egy vagy többnyelvű oldal esetén is - arra, hogy a megj
 
 ## DESIGN
 
+### Hírlevelek
+Hírlevél dizájnnal kapcsolatos ajánlások
+* Hírlevélben található képi elemek háttérként lehetőleg ne szerepeljenek
+* Képet háttérként a Microsoft Outlook 2007-es verziótól kezdve nem jelenít meg
+* Hírlevél ajánlott szélessége 550 pixel
+
 ### Third party content
 Harmadik féltől származó grafikai elemek felhasználása előtt tájékozódni kell az adott tartalom szerzőjének feltételeiről. Pl.:
 
