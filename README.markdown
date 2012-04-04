@@ -131,6 +131,7 @@ Ahol a projektben adatrögzítésre (pl.: REGISZTRÁCIÓ, KAPCSOLATOLDAL, KÉRD�
 * A hibásan kitöltött mezők vizuális kiemelése (Pl.: más színnel)
 * A "Hibás kitöltés!" üzenet helyett informatív szövegek megfogalmazása, melyek utalnak az elutasítás okára
 * A 10-20 elemnél több opciót tartalmazó legördülő listát érdemes lehet automatikus kiegészítéses egysoros beviteli mezőre cserélni
+* Definiálni kell, hogy egy LÁTOGATÓ hányszor veheti igénybe az adott űrlap küldési funkcióját. Továbbá ennek technikai megvalósításáról is célszerű beszélni. Pl.: LÁTOGATÓ azonosításának módja (böngésző sütikkel/adatbázisban regisztrációval...etc)
 
 >#### Példa KAPCSOLATOLDAL-ra
 >
@@ -260,6 +261,8 @@ Megadható minden aloldalra táblázatos formában is.
 
 
 ###Erőforrások
+
+* HTTPS titkosított kommunikációt igényel a projekt?
 
 * Mekkora látogatottságra számítanak?
 	* Lesz e pontszerű (TV spot, Radio Ad, stb) kampánya az oldalnak?
