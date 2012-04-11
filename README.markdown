@@ -6,6 +6,7 @@ A wireframe, grafikai munkák megkezdése előtt célszerű ismerni a célközö
 * Férfiak/Nők,
 * 18-25 éves korosztály
 * egyetemisták/nyugdíjasok,
+* Gyengénlátóak,
 * bárki/vegyes/meghatározhatatlan `(marketing fail?)`
 
 ##WIREFRAME
@@ -239,6 +240,7 @@ Megadható minden aloldalra táblázatos formában is.
 
 * Működés biztosítása IE6-ban is
 * Mobil böngészőre tervezett/optimalizált design `(Részletezve talán máshol)`
+* Nyomtatási stíluslap elkészítése (Print CSS)
 
 ### Preferált/kért technológiák használata
 
