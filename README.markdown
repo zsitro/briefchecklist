@@ -184,6 +184,20 @@ Ha igény van - akár egy vagy többnyelvű oldal esetén is - arra, hogy a megj
 
 ## DESIGN
 
+### Tipikusan kimaradt "view/view state" esetek a grafikai terveken (általában javítandó elfogadás előtt)
+
+* Üres lista nézet (Pl.: Nincs megjeleníthető elem)
+* Oldal lapozó 1 oldalnyi tartalom esetén
+* Hibaüzenetek helye
+* Captcha (általában reCaptcha) integrálása
+* 404-es oldal
+
+### Tipikusan hibás (vagy custom?) grafikai elemek (általában javítandó elfogadás előtt)
+
+* Social share gombok, amik hasonlítanak a default választék egyik példányára, mégis különböznek (pl.: szín)
+* Custom scrollbar grafika (ilyen igény esetén javaslat: http://areaaperta.com/nicescroll/)
+* Egyedi Google Maps Info window / control bar / etc (https://google-developers.appspot.com/maps/documentation/javascript/examples/infowindow-simple)
+
 ### Hírlevelek
 Hírlevél dizájnnal kapcsolatos ajánlások
 
