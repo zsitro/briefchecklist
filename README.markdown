@@ -186,9 +186,10 @@ Ha igény van - akár egy vagy többnyelvű oldal esetén is - arra, hogy a megj
 
 ### Tipikusan kimaradt "view/view state" esetek a grafikai terveken (általában javítandó elfogadás előtt)
 
-* Üres lista nézet (Pl.: Nincs megjeleníthető elem)
+* Üres lista nézet (pl.: Nincs megjeleníthető elem)
 * Oldal lapozó 1 oldalnyi tartalom esetén
 * Hibaüzenetek helye
+* Adatrögzítés (pl.: jelentkezési űrlap) elküldése utáni üzenet (pl.: "Köszönjük, hogy regisztrált a játékra!")
 * Captcha (általában reCaptcha) integrálása
 * 404-es oldal
 
