@@ -188,12 +188,13 @@ Ha igény van - akár egy vagy többnyelvű oldal esetén is - arra, hogy a megj
 
 * Üres lista nézet (pl.: Nincs megjeleníthető elem)
 * Oldal lapozó 1 oldalnyi tartalom esetén
+* textarea, input mezők tartalmának hiánya, formázása
 * Hibaüzenetek helye
 * Adatrögzítés (pl.: jelentkezési űrlap) elküldése utáni üzenet (pl.: "Köszönjük, hogy regisztrált a játékra!")
 * Captcha (általában reCaptcha) integrálása
 * 404-es oldal
 
-### Tipikusan hibás (vagy custom?) grafikai elemek (általában javítandó elfogadás előtt)
+### Tipikusan hibás (vagy fölöslegesen egyedi, költség-növelő?) grafikai elemek (általában javítandó elfogadás előtt)
 
 * Social share gombok, amik hasonlítanak a default választék egyik példányára, mégis különböznek (pl.: szín)
 * Custom scrollbar grafika (ilyen igény esetén javaslat: http://areaaperta.com/nicescroll/)
